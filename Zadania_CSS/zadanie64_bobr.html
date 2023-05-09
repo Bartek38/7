@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+		<html lang="pl-PL">
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> </title>
+	</head>
+	<body>
+	<h2>
+	<OL TYPE=1 START=1> 
+		<LI>tabela zaokrąglenie narożników obszarów bloków np. DIV</LI></OL></h2>
+		<table cellspacing="0" border="1" width="600">
+		<thead>
+		<tr>
+			<th colspan="2"><b>Zaokrąglenie narożników obszarów bloków np. DIV</b></th>
+		</tr>
+		</thead>	
+			<tbody>
+		<tr>
+			<td>Zaokrąglenie górnego-lewego narożnika:</td>
+			<td>selektor { border-top-left-radius: zaokrąglenie }</td>
+		</tr>
+		<tr>
+			<td>Zaokrąglenie górnego-prawego narożnika:</td>
+			<td>selektor { border-top-right-radius: zaokrąglenie }</td>
+		</tr>
+		<tr>
+			<td>Zaokrąglenie dolnego-prawego narożnika:</td>
+			<td>selektor { border-bottom-right-radius: zaokrąglenie }</td>
+		</tr>
+		<tr>
+			<td>Zaokrąglenie dolnego-lewego narożnika:</td>
+			<td>selektor { border-bottom-left-radius: zaokrąglenie }</td>
+		</tr>	
+		</tbody>
+		</table>
+		<h2>
+	<OL TYPE=1 START=2> 
+	<LI>zastosowanie oraz uwagi dotyczące zaokrąglania narożników</LI></OL></h2>
+	<u>Zastosowanie:</u><br>
+	We wszystkich przypadkach selektorem może być dowolny znacznik, np.<br>
+	<UL TYPE="DISC">
+	<LI>p – akapit</LI>
+	<LI>h1 –nagłówek</LI>
+	<LI>div –blok</LI></UL>
+	Natomiast "zaokrąglenie" określa promień wyrażony w jednostkach długości albo w procentach (względem obszaru obramowania - zobacz: Model pudełkowy). Możliwe jest tutaj podanie:<br>
+	<UL TYPE="DISC">
+	<LI>jednej wartości - zaokrąglenie symetryczne</LI>
+	<LI>dwóch wartości - pierwsza określa poziomy promień ćwiartki elipsy zaokrąglenia, a druga - pionowy</LI></UL>	
+	Zaokrąglone narożniki to bardzo ciekawy efekt wizualny, który może zwiększyć estetykę strony. Co ciekawe, element wcale nie musi mieć obramowania, aby miał zaokrąglone narożniki. Wystarczy jeśli będzie miał ustalone jakieś tło, aby efekt był widoczny na ekranie.<br>
+	Ale uwaga: tekst wewnątrz elementu nie zostanie zawinięty do zaokrąglonych rogów. Jeśli promień zaokrąglenia będzie zbyt duży, tekst wyjdzie na zewnątrz.<br>
+	<h2><OL TYPE=1 START=3> 
+	<LI>przykład z instrukcji</LI></OL></h2>
+	<TEXTAREA ROWS="1" COLS="50">
+	border-top-right-radius: 10px
+	</TEXTAREA>
+	<h2><OL TYPE=1 START=4>
+	<LI>opis w jaki sposób centrujemy DIVy.</LI></OL></h2>
+	W definicja CSS bloku DIV należy wpisać:<br>
+	<TEXTAREA ROWS="2" COLS="50">
+margin-left: auto;
+margin-right: auto;
+	</TEXTAREA>
+	</body>
+</html>	

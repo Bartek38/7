@@ -1,0 +1,26 @@
+div#blok1_Bobrowski {
+width:603px;
+background-color:green;
+}
+
+div#blok2_Bobrowski {
+width:603px;
+background-color:green;
+}
+
+div#blok3_Bobrowski {
+width:603px;
+background-color:green;
+}
+
+div#blok1_Bobrowski:hover {
+	background-color: yellow;
+}
+
+div#blok2_Bobrowski:hover {
+	background-color: red;
+}
+
+div#blok3_Bobrowski:hover {
+	background-color: blue;
+}

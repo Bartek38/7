@@ -1,0 +1,19 @@
+p 
+	{
+	color:red;
+	font-size:22pt;
+	}
+	
+p#gruby_bobrowski
+	{
+	color:green;
+	font-size:17pt;
+	font-weight:700;
+	}
+	
+#dlawszystkich_bobrowski
+	{
+	color:yellow;
+	font-size:10pt;
+	font-family:Arial;
+	}

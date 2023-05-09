@@ -1,0 +1,38 @@
+body {
+	background-color:silver;
+}
+
+div#pierwszy_bobrowski {
+	width:712pt;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgb(0, 193, 255);
+	border-radius: 14mm;
+	border: solid rgb(0, 0, 152) 5px;
+	
+}
+
+div#drugi_bobrowski {
+	width:912pt;
+	background-color: rgb(255, 158, 213);
+	border-radius: 16mm;
+	border: solid black 3px;
+}
+
+div#trzeci_bobrowski {
+	width:1112pt;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgb(0, 255, 135);
+	border-radius: 9mm;
+	border: solid purple 7px;
+}
+
+p {
+	font-size:11pt;
+}
+
+p:first-child {
+	font-size:7mm;
+	font-style:italic;
+}
